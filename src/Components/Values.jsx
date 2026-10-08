@@ -50,7 +50,7 @@ const Values = () => {
 
             {/* Image */}
             <div className='md:flex w-1/2 hidden'>
-                <img src={Basket}  />
+                <img src={Basket}  alt='Values'/>
             </div>
 
             {/* Right Values */}

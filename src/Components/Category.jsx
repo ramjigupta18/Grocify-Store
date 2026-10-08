@@ -13,7 +13,7 @@ const Category = () => {
             <div className='flex-1 basis-[300px]' key={card.id}>
                 {/* Card Image */}
                 <div className='w-full min-h-[30vh] relative -mb-10'>
-                    <img src={card.image} className='absolute bottom-0'/>
+                    <img src={card.image} className='absolute bottom-0' alt='card Image'/>
                 </div>
 
                 {/* Card Content */}

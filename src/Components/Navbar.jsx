@@ -33,16 +33,16 @@ const Navbar = () => {
             {/* Desktop Menu */}
             <ul className='md:flex items-center gap-x-14 hidden'>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-[#FF5F1F]'>Home</a>
+                    <a href="/" className='font-semibold tracking-wider text-[#FF5F1F]'>Home</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F] '>About Us</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F] '>About Us</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Process</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Process</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Contact Us</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Contact Us</a>
                 </li>
             </ul>
 
@@ -57,10 +57,10 @@ const Navbar = () => {
                         </button>
                 </div>
 
-                <a href="#" className='text-zinc-800 text-2xl'>
+                <a href="/" className='text-zinc-800 text-2xl'>
                     <GoHeartFill />
                 </a>
-                <a href="#" className='text-zinc-800 text-2xl'>
+                <a href="/" className='text-zinc-800 text-2xl'>
                    <HiMiniShoppingBag />
                 </a>
 
@@ -75,16 +75,16 @@ const Navbar = () => {
               <ul className={`absolute top-full left-0 w-full bg-white backdrop-blur-xl flex flex-col items-center gap-y-10 p-10 rounded-xl transition-all duration-500 md:hidden         ${showMenu ? "opacity-100 translate-y-0": "opacity-0 -translate-y-5 pointer-events-none"}`}>
 
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-[#FF5F1F]'>Home</a>
+                    <a href="/" className='font-semibold tracking-wider text-[#FF5F1F]'>Home</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F] '>About Us</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F] '>About Us</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Process</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Process</a>
                 </li>
                 <li>
-                    <a href="#" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Contact Us</a>
+                    <a href="/" className='font-semibold tracking-wider text-zinc-800 hover:text-[#FF5F1F]'>Contact Us</a>
                 </li>
                 <li className='flex p-1 border-2 border-[#FF5F1F] rounded-full md:hidden'>
 

@@ -45,7 +45,7 @@ const Testimonials = () => {
               <SwiperSlide className="bg-zinc-100 rounded-xl p-8">
                 <div className="flex gap-5 items-center">
                   <div className="w-16 h-16 rounded-full outline-dashed outline-[#FF5F1F] outline-offset-4 overflow-hidden ">
-                    <img src={item.image} className="w-full h-full"/>
+                    <img src={item.image} className="w-full h-full" alt={item.name}/>
                   </div>
 
                   <div>

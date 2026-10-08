@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-wrap gap-y-12 max-w-[1400px] mx-auto px-10">
 
         <div className="flex-1 basis-[300px]">
-          <a href="#" className="text-3xl font-bold">
+          <a href="/" className="text-3xl font-bold">
             Gr<span className="text-[#FF5F1F] uppercase">o</span>cify
           </a>
           <p className="text-zinc-600 mt-6 max-w-[350px]">Bred for a high content of beneficial substances. Our products are all fresh and healthy.</p>
@@ -20,10 +20,10 @@ const Footer = () => {
                 <h5 className="text-zinc-800 text-2xl font-bold">Company</h5>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-[#FF5F1F]">About</a>
+                <a href="/" className="text-zinc-800 hover:text-[#FF5F1F]">About</a>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-[#FF5F1F]">FAQ'S</a>
+                <a href="/" className="text-zinc-800 hover:text-[#FF5F1F]">FAQ'S</a>
             </li>
         </ul>
 
@@ -33,13 +33,13 @@ const Footer = () => {
                 <h5 className="text-zinc-800 text-2xl font-bold">Support</h5>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-[#FF5F1F]">Support Center</a>
+                <a href="/" className="text-zinc-800 hover:text-[#FF5F1F]">Support Center</a>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-[#FF5F1F]">Feedback</a>
+                <a href="/" className="text-zinc-800 hover:text-[#FF5F1F]">Feedback</a>
             </li>
             <li className="mt-6">
-                <a href="#" className="text-zinc-800 hover:text-[#FF5F1F]">Contact Us</a>
+                <a href="/" className="text-zinc-800 hover:text-[#FF5F1F]">Contact Us</a>
             </li>
 
         </ul>
