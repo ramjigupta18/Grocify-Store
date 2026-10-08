@@ -14,7 +14,7 @@ const Cards = ({ image, name, price }) => {
 
       {/* Card Image */}
       <div className='w-full h-52'>
-        <img src={image} className='w-full h-full mx-auto object-contain' alt='Card Image'/>
+        <img src={image} className='w-full h-full mx-auto object-contain' alt='Card'/>
       </div>
 
 

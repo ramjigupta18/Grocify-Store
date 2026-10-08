@@ -19,7 +19,7 @@ const Hero = () => {
 
             {/* Hero Image */}
             <div className='flex-1'>
-                <img src={Grocery} alt="Hero Image" />
+                <img src={Grocery} alt="Hero" />
 
             </div>
 
