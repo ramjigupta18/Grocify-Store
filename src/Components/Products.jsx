@@ -12,10 +12,16 @@ const Products = () => {
     activeTab === "All"
       ? ProductList
       : ProductList.filter((item) => item.category === activeTab);
-
+      
   const renderCards = filteredItems.slice(0, 8).map((product) => {
     return (
-      <Cards image={product.image} name={product.name} price={product.price} />
+      <Cards
+        key={product.id}
+        product={product}
+        image={product.image}
+        name={product.name}
+        price={product.price}
+      />
     );
   });
 
@@ -47,7 +53,7 @@ const Products = () => {
 
         <div className="mt-14 mx-auto w-fit">
           <Link
-            to='/allproducts'
+            to="/allproducts"
             className="bg-[#FF5F1F] text-white px-8 py-3 rounded-lg md:text-lg text-sm hover:scale-105 hover:bg-[#fc4b06] transition-all duration-300 cursor-pointer"
           >
             View All
