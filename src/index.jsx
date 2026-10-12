@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { ShopProvider } from './Components/Context/ShopContext';
 import './index.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
@@ -14,6 +15,8 @@ root.render(
     <BrowserRouter>
       <ShopProvider>
         <App />
+    {/* Vercel Deployment */}
+        <Analytics />
       </ShopProvider>
     </BrowserRouter>
   </React.StrictMode>
